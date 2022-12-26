@@ -1,0 +1,205 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Snasy | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Snasy, Python, Developer" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Snasy | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="https://snasy.de/images/mchead.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://snasy.de/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Snasy | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Erfahre mehr über Snasy" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://snasy.de/images/mchead.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://snasy.de/" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Snasy | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Erfahre mehr über Snasy"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://snasy.de/images/mchead.png"
+    />
+
+    <!-- link tags -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-122228201-4");
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, ich bin <span class="text-color-main name">Snasy</span>
+          <br />
+          Hobby Developer
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Erfahre mehr</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Über mich</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="https://snasy.de/images/mchead.png"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hallo, ich bin Snasy und seit 2020 beschäftige ich mich mit der Python-Programmierung!
+              Ich habe mir ein Video-Kurs gekauft, dann hatte kurzzeitig aufgehört, zu programmieren weil mir die Zeit gefehlt hat. Später habe ich ein paar Discord-Bots mit der API nextcord programmiert.
+            </p>
+            <p class="about-wrapper__info-text">
+              Jetzt in 2023 beschäftige ich mich mit Websiten und Homeserven.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projekte</h2>
+
+          <!-- Each .row is a project -->
+        <section id="xunity">
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Xunity (Host)</h3>
+              <p class="project-wrapper__text-info">
+                Xunity war mein Discord-Server, den ich zusammen mit ein paar Freunden geleitet habe. Dort hatten wir einen selbstprogrammierten Bot, Boost-Level 3, eine eigene Domain und ein eigenes Hosting
+              </p>
+
+            </div>
+
+            <div class="project-wrapper__image">
+              <a rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="https://snasy.de/images/xunity-small-banner.png" class="img-fluid" alt="Project Image" />
+                </div>
+              </a>
+            </div>
+          </article>
+        </section>
+        <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Man kann mich per E-Mail (mail@snasy.de) und auf Social-Media kontaktieren</p>
+          <a href="https://snasy.de/links/" class="cta-btn cta-btn--resume">Meine Links</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <hr />
+      <a href="https://github.com/AnilSeervi/DevFolio" class="footer__text">
+        &copy; <span id="year"></span> - Vorlage von Anil Seervi
+      </a>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
